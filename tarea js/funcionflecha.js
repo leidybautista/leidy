@@ -4,9 +4,7 @@ funtion (a)
 {
     return a + 100;
 }
-    
-  
-  // Desglose de la función flecha
+    // Desglose de la función flecha
   
   // 1. Elimina la palabra "function" y coloca la flecha entre el argumento y el corchete de apertura.
   (a) => {
@@ -18,3 +16,6 @@ funtion (a)
   
   // 3. Suprime los paréntesis de los argumentos
   a => a + 100;
+
+
+  
