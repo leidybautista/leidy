@@ -1,29 +1,48 @@
-//funciones flecha con solo parametros
-var saludar = nombre => console.log(`Hola, ${nombre}`)
-console.log(saludar("Ian"));
-
-
-
-//funcion flecha sin parametros
-var mostrarFecha = () => new Date().toLocaleDateString()
-console.log(mostrarFecha());
-// 1/5/2019
-
-
-
-
-// Asignamos la funcion a una variable para reutilizarla
-var suma = (numero1, numero2) => numero1 + numero2
-var a = suma(2, 3);
-// 5
-var b = suma(4, 5);
-// 9
-
-// O la usamos directamente
-function calcular(operacion, numero1, numero2) {
-  return operacion(numero1, numero2);
+//Generar el array
+var vec=(array,tam)=>{
+    for (let i = 0; i < tam; i++) {
+        array.push(Math.round(Math.random()*100));
+        
+    }
+    return array;
 }
+v=[];
+x=5;
+console.log('Flecha: '+vec(v,x));
 
-var c = calcular((numero1, numero2) => numero1 + numero2, 6, 7);
-console.log(b);
-// 13
+//Mayor del array
+var mayor=v=>{
+    let may=0;
+    for (let i = 0; i< v.length; i++) {
+        if (v[i]>may) {		
+            posicion=i;
+            may=v[i];
+        }
+    }  
+    return may; 
+}
+console.log('El numero mayor de los elementos del array es: ' + mayor(v)+' y su posicion es: ' +posicion);
+
+//Menor del array
+var menor =v=>Math.min(...v);
+console.log('El numero menor es:'+menor(v));
+
+//Suma del array
+var sum=v=>{
+    let suma=0;
+    for (let i = 0; i< v.length; i++) {
+        suma+=v[i];
+    }  
+    return suma; 
+}
+console.log('La suma de los elementos del array es: ' + sum(v));
+
+//Promedio del array
+var prom=(v,x)=>{
+    let promedio=0;
+    for (let i = 0; i< v.length; i++) {
+        promedio+=v[i]/x;
+    }  
+    return promedio; 
+}
+console.log('El promedio de los elementos del array es: ' + prom(v,x));
