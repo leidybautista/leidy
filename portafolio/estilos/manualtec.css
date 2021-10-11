@@ -9,12 +9,13 @@ body{
 .Contenedor{
     width: 100%;
     background-image: url(../img/fondo1.jpg);
-    position:absolute;
     top: 0;
     bottom: 0;
     background-position: center; 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+   
+   
 }
 
 img{
@@ -82,4 +83,3 @@ div.subtitulo{
     text-align: center;
     
 }
-
