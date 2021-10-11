@@ -1,4 +1,4 @@
 Base de datos:ubicasion
 el archivo de la base de datos se encuentra dentro de la carpeta PORTAFOLIO luego se abre carpeta llamada CRUD PROYECTO 
 y dentro de esta hay una subcarpeta llamada BD Hay se descarga la base de datos  
-para el index se encuentra en la carpeta portafolio el cual se llama index.html
+para el index se encuentra en la carpeta portafolio el cual se llama index.php
