@@ -40,6 +40,17 @@
                         <p class="Centrar">herencia js</p>
                     </div>
                 </a>
+                <a href="https://github.com/leidybautista/leidy/tree/main/javascript" class="Link">
+                    <div class="Iconos">
+                        <p class="Centrar">Github</p>
+                    </div>
+
+                </a>
+                <a href="https://github.com/leidybautista/leidy" class="Link">
+                    <div class="Iconos">
+                        <p class="Centrar">Github Completo</p>
+                    </div>
+                </a>
                 
                     </div>
                 </a>
