@@ -1,0 +1,88 @@
+body{
+    font-size: 1em;
+    padding: 0;
+    margin: 0;    
+    color: #fff;
+    font-family: Century Gothic;  
+}
+
+.Contenedor{
+    width: 100%;
+    background-image: url(../img/fondo1.jpg);
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+ul{
+    width: 48%;
+    height: 50px;
+    list-style-type: none;
+    margin: 25%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+    text-align: center;
+    
+}
+  
+input {
+    display: block;
+    color: rgb(56, 54, 54);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 10px 10px 10px;
+    font-family: "Impact";    
+}
+  
+input:hover:not(.active) {
+    background-color: #111;
+}
+
+.wrap{
+    width: 47%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    opacity: 0.7;
+    background-color: #215988;  
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+
+.Iconos{
+    width: 100px;
+    height: 100px;
+    border-radius: 300px;
+    background-color: #ecfff9;
+    float: left;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.Centrar{
+    margin-top: 35%;
+}
+
+.Link{
+    color: black;
+    text-decoration: none;
+}
+
+.Link :hover{
+    background-color: #215988;
+    color: #fff;
+}
