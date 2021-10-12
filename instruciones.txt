@@ -1,3 +1,4 @@
+para abrir el portafolio debe descargar la carpeta completa llamada leidy que es todo el repositorio hay dentro de leidy se encuentra la carpeta llamada portafolio 
 Para abrir el index del portafolio debe escribir este enlace localhost/leidy/portafolio/index.php
 
 
