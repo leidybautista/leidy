@@ -13,31 +13,31 @@
 
 
     <div class="wrap">
-        <form action="../controlador/controladorregistro.php" , method="GET">
+        <form action="../controlador/controladorModificar.php" , method="GET">
 
             <label for="">NOMBRE DEL PRODUCTO</label>
             <br>
             <br>
-            <input type="text" name="nombre" id="nombre" class="form-control" >
+            <input type="text" name="nombre" id="nombre" class="form-control" value="<?php echo $datos->getNombre(); ?>">
             <br>
             <label for="">VALOR DEL PRODUCTO</label>
             <br>
             <br>
-            <input type="text" name="valor" id="valor" class="form-control" >
+            <input type="text" name="valor" id="valor" class="form-control" value="<?php echo $datos->getValor(); ?>">
             <br>
             <label for="">CANTIDAD PRODUCTOS COMPRADOS</label>
             <br>
             <br>
-            <input type="text" name="cantidad" id="cantidad" class="form-control" >
+            <input type="text" name="cantidad" id="cantidad" class="form-control" value="<?php echo $datos->getCantidad(); ?>">
             <br>
             <label for="">FECHA DE COMPRA</label>
             <br>
             <br>
-            <input type="date" name="fecha" id="fecha" >
+            <input type="date" name="fecha" id="fecha" value="<?php echo $datos->getFecha(); ?>">
             <br>
             <br>
 
-            <input type="submit" name="boton" value="Insertar Datos" class="btn btn-primary">
+            <input type="submit" name="boton" value="Modificar Datos" class="btn btn-primary">
         </form>
         <a href="../controlador/controladorlistar.php" class="Link">
             <div class="ver">

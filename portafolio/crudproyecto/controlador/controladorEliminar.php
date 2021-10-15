@@ -5,6 +5,6 @@
     $nombre=$_GET['nombre'];
     $a=new Compras($nombre,null,null,null);
     $dao->eliminar($a);
-
+    require('../controlador/controladorlistar.php');
  ?>  
  
