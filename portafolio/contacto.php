@@ -13,11 +13,18 @@
     <div class="Contenedor">
         <div class="wrap">
             <div class="img">
-                <img src="img/img1.png" class="img" alt="">
+                <img src="img/leidy.jpg" class="img" alt="">
             </div>
             <div class="titulo">
                 <br>
-                <label for="">Hola</label>
+                <label for="">Estudios</label>
+                <br>
+                <br>
+                <label for="">Bachillerato</label>
+                <br>
+                <label for="">Tecnologa en Analisis y desarrollo de los sistemas de informacion</label>
+                <br>
+                <br>
                 <label for="">esta es mi informacion de contacto</label>
             </div>
 

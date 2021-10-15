@@ -34,7 +34,7 @@
             <div class="ContenedorIconos">
                 <a href="../portafolio/crudproyecto/vista/indexinsertar.php" class="Link">
                     <div class="Iconos">
-                        <p class="Centrar">Proyectos</p>
+                        <p class="Centrar">Proyecto Crud php</p>
                     </div>
                 </a>
                 <a href="../portafolio/js.php" class="Link">

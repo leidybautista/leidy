@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos y Funciones</title>
+</head>
+<body>
+    <br><br>
+    <center>
+        <strong><h2>Calcular numero mayor, menor, promedio </h2></strong>
+        <script src="flecha.js"></script>
+    </center>
+
+    <center>
+    <div class="contenido">
+        <h1>Este es mi Codigo de funciones flecha</h1>
+        <pre>
+           <p>//Generar el array</p> 
+var vec=(array,tam)=>{
+    for (let i = 0; i < tam; i++) {
+        array.push(Math.round(Math.random()*100));
+        
+    }
+    return array;
+}
+v=[];
+x=5;
+document.write (' Flecha: '+vec(v,x));
+
+
+
+<p>//Mayor del array</p>
+ <var> var mayor=v=>{
+    let may=0;
+    for (let i = 0; i< v.length; i++) {
+        if (v[i]>may) {		
+            posicion=i;
+            may=v[i];
+        }
+    }  
+    return may; 
+}</var>
+document.write('El numero mayor de los elementos del array es: ' + mayor(v) +' y su posicion es: ' +posicion);
+
+
+<p>//Menor del array</p>
+var menor =v=>Math.min(...v);
+document.write(' El numero menor es: '+menor(v));
+
+
+<p>//Suma del array</p>
+<var>var sum=v=>{
+    let suma=0;
+    for (let i = 0; i< v.length; i++) {
+        suma+=v[i];
+    }  
+    return suma; 
+}</var> 
+document.write('La suma de los elementos del array es: ' + sum(v));
+
+<p>//Promedio del array</p>
+
+<var>var prom=(v,x)=>{
+    let promedio=0;
+    for (let i = 0; i< v.length; i++) {
+        promedio+=v[i]/x;
+    }  
+    return promedio; 
+}</var> 
+document.write('El promedio de los elementos del array es: '
+        </pre>
+    </div>
+</center>
+</form>
+</body>
+</html>

@@ -25,12 +25,12 @@
             <br>
             <br>
             <div class="ContenedorIconos">
-                <a href="../portafolio/funciones/funciones-flecha.html" class="Link">
+                <a href="../portafolio/funciones/flecha.html" class="Link">
                     <div class="Iconos">
                         <p class="Centrar">Funciones flecha js </p>
                     </div>
                 </a>
-                <a href="../portafolio/funciones/fraccionarios.html" class="Link">
+                <a href="../portafolio/funciones/fracciones.html" class="Link">
                     <div class="Iconos">
                         <p class="Centrar">fraccionarios js</p>
                     </div>
@@ -42,7 +42,7 @@
                 </a>
                 <a href="https://github.com/leidybautista/leidy/tree/main/javascript" class="Link">
                     <div class="Iconos">
-                        <p class="Centrar">Github</p>
+                        <p class="Centrar">Github js</p>
                     </div>
 
                 </a>

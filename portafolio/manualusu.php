@@ -42,6 +42,9 @@
                 <br>
                 <br>
                 <label for="">Requerimientos de hardware y software </label>
+                <div class="img">
+                <img src="img/hys.png" class="img" alt="">
+            </div>
                 <br>
                 <br>
                 <label for="">Estructura del software y reglas básicas para moverse en la aplicació </label>
@@ -51,12 +54,21 @@
                 <br>
                 <br>
                 <label for="">Ingreso al sistema </label>
+                <div class="img">
+                <img src="img/sistema.jfif" class="img" alt="">
+            </div>
                 <br>
                 <br>
                 <label for="">Interfaz gráfica </label>
+                <div class="img">
+                <img src="img/interfaz.jfif" class="img" alt="">
+            </div>
                 <br>
                 <br>
                 <label for="">Mapa de navegacion<br>
+                <div class="img">
+                <img src="img/navegacion.png" class="img" alt="">
+            </div>
                 <br>
                 <label for="">Se debe presentar de manera muy detallada, el mapa de navegación con sus respectivos botones y funciones  </label><br>
                 <br>
@@ -64,6 +76,9 @@
                 <br>
                 <br>
                 <label for="">Tambien colocar las capturas de pantalla del aplicativo para un mejor entendimiento y visualizacion </label>
+                <div class="img">
+                <img src="img/captura.jpg" class="img" alt="">
+            </div>
                 <br>
                 <br>
                

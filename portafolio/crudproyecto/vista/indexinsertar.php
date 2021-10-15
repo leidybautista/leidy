@@ -35,6 +35,12 @@
     <br>
     <input type="submit" name="boton" value="Insertar Datos" class="btn btn-primary">
     </form>
+    <a href="../vista/indexlistar.php" class="Link">
+                    <div class="ver">
+                        <p class="Centrar">Ver Datos </p>
+                    </div>
+                </a>
+
     </div>     
 </body>
 </html>

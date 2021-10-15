@@ -30,9 +30,7 @@
                 <label for="">En este documento se debe presentar una breve descripción del sistema desarrollado, que contemple el contexto de la aplicación, subsistemas o módulos que lo componen   </label>
                 <br>
                 <br>
-                <label for="">El manual tecnico es un poco mas sencillo  muchos de los componentes que se deben mostrar estan hechos en la documentacion de la aplicasion  </label>
-                <br>
-                <br>
+                
                 <label for="">El cual requiere unos componentes como los son : </label>
                 <br>
                 <br>
@@ -42,10 +40,16 @@
                 <label for="">Contenido técnico </label>
                 <br>
                 <br>
+                <div class="img">
+                <img src="img/manual2.jfif" class="img" alt="">
+            </div>
                 <label for="">Descripción de los procesos  </label>
                 <br>
                 <br>
                 <label for="">Diagramas UML  </label>
+                <div class="img">
+                <img src="img/uml.png" class="img" alt="">
+            </div>
                 <br>
                 <br>
                 <label for="">Se deben presentar los diagramas UML más representativos, entre ellos encontramos, el de casos de uso, clases, secuencias, entre otros </label>
@@ -56,9 +60,15 @@
                 <br>
                 <label for="">Modelo lógico de datos, diagrama entidad-relación. <br>
                 <br>
+                <div class="img">
+                <img src="img/entidad.png" class="img" alt="">
+            </div>
                 <label for="">Plataforma de usuario. </label><br>
                 <br>
                 <label for="">En este numeral se relacionan las diferentes herramientas utilizadas para el desarrollo del sistema de Información, entre ellas el lenguaje de Programación, el Sistema Manejador de Bases de Datos, las librerías, los pluggins, y TODAS las herramientas necesarias para que el aplicativo funcione correctamente </label> </label>
+                <div class="img">
+                <img src="img/herramientas.jfif" class="img" alt="">
+            </div>
                 <br>
                 <br>
                 <label for="">Interfaz Gráfica 
@@ -66,6 +76,9 @@
 Mapa de navegación 
 
 Descripción paso a paso 
+<div class="img">
+                <img src="img/mapa.png" class="img" alt="">
+            </div>
 
  
 

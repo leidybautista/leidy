@@ -18,21 +18,24 @@
                     <th>VALOR PRODUCTO</th>
                     <th>CANTIDAD PRODUCTOS COMPRADOS</th>
                     <th>FECHA DE COMPRA</th>
+                    <th></th>
+                    <th></th>
                 </tr>
 
             </thead>
             <tbody>
-            <?php
+            <?php 
                 
                 foreach ($datos as $key) {
-                    
                     echo "<tr><td>". $key->getNombre() . "</td>" ;
                     echo "<td>". $key->getValor() . "</td>";
                     echo "<td>". $key->getCantidad() . "</td>";
-                    echo "<td>". $key->getFecha() . "</td></tr>";                   
+                    echo "<td>". $key->getFecha() . "</td>";
+                    echo "<td><input type='submit' value='Editar' class='btn btn-primary' /></td>";
+                    // echo "<td><a href='?action=eliminar&id=". $key->getNombre()  . "' class='btn btn-primary'>Eliminar</a></td></tr>";
+                    echo "<td><a href='../controlador/controladorEliminar.php?nombre=". $key->getNombre()  . "' class='btn btn-primary'>Eliminar</a></td></tr>";
+                    echo "<td><a href='../controlador/controladorEliminar.php?nombre=". $key->getNombre()  . "' class='btn btn-primary'>Eliminar</a></td></tr>";                          
                 }
-                
-                
             ?>
             </tbody>
     </table>
